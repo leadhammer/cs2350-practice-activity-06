@@ -1,7 +1,14 @@
 @import url('~normalize.css/normalize.css');
-
+@import url("../../node_modules/bootstrap/dist/css/bootstrap.css");
 * {
   box-sizing: border-box;
 }
 
 /* TODO */
+body{
+  text-align: center;
+  padding: 5% 20% 0 20%;
+}
+#name-fld{
+  margin-bottom: 10px;
+}
